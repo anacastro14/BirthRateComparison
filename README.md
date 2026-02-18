@@ -1,4 +1,8 @@
 # BirthRateComparison
-Analysis on how health, education, and income depravation are related to teenage pregnancies by comparing Western and Eastern European contries and Latin American countries.
+This project analyses the relationship between health, education, and income deprivation and teenage pregnancy rates by comparing countries in Western Europe, Eastern Europe, and Latin America.
 
-This code was generated using RStudio.
+The objective is to explore how different socioeconomic contexts are associated with variations in adolescent birth rates across regions.
+
+All analyses were conducted using RStudio.
+
+Each dataset used in this project is clearly referenced in the code, with original data sources credited in the corresponding comments.
