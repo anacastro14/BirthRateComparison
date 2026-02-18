@@ -17,18 +17,18 @@ library(ineq)
 
 
 ##----LOAD DATA SETS ----
-fndataENWAL <- read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/birthRateENWAL.xlsx", sheet="Table_2")
-fndataMEX <-read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/birthRateMEX.xlsx")
-fndataSCT<-read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/birthsScotland.xlsx", sheet="2.2")
-fndataNI<-read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/BrithsNorthernIreland.xlsx", sheet="Table 3.3")
-fndataEurope <- read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/birthEuropeUnder20.xlsx", sheet="Data (table)")
-fndataBrazil <-read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/Brazil.xlsx")
-fndataChile <-read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/Chile.xlsx", sheet="Cuadro 2")
-fndataColombia <-read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/Colombia.xlsx", sheet="Cuadro1")
-fndataPeru <-read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/Peru.xlsx", sheet="C1")
-fndataUruguay <-read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/Uruguay.xlsx", sheet="2.3.5")
-fndataRD <-read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/RD.xlsx", sheet="Cuadro 1.10.3")
-fndataPanama <-read_excel("/Users/anaca/OneDrive/Escritorio/2ndTerm/Health Informatics and Clinical Intelligence/Summative/Panama.xlsx", sheet="Sheet1")
+fndataENWAL <- read_excel(".../birthRateENWAL.xlsx", sheet="Table_2")
+fndataMEX <-read_excel(".../birthRateMEX.xlsx")
+fndataSCT<-read_excel(".../birthsScotland.xlsx", sheet="2.2")
+fndataNI<-read_excel(".../BrithsNorthernIreland.xlsx", sheet="Table 3.3")
+fndataEurope <- read_excel(".../birthEuropeUnder20.xlsx", sheet="Data (table)")
+fndataBrazil <-read_excel(".../Brazil.xlsx")
+fndataChile <-read_excel(".../Chile.xlsx", sheet="Cuadro 2")
+fndataColombia <-read_excel(".../Colombia.xlsx", sheet="Cuadro1")
+fndataPeru <-read_excel(".../Peru.xlsx", sheet="C1")
+fndataUruguay <-read_excel(".../Uruguay.xlsx", sheet="2.3.5")
+fndataRD <-read_excel(".../RD.xlsx", sheet="Cuadro 1.10.3")
+fndataPanama <-read_excel(".../Panama.xlsx", sheet="Sheet1")
 
 
 #----SOURCES----
@@ -490,6 +490,7 @@ ggplot(TeenBirths2022_HDI, aes(x = `Percentage of births`, y = Region, fill=Regi
        y = "",
        caption = "Vertical lines are quartiles") +
   theme_minimal()
+
 
 
 
