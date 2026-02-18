@@ -7,7 +7,7 @@ All analyses were conducted using R.
 
 The datasets used in this study are fully referenced within the code, with original data sources credited in the corresponding comments.
 
-##KEY FINDINGS
+## KEY FINDINGS
 
 <img width="814" height="616" alt="image" src="https://github.com/user-attachments/assets/50475fde-b515-4057-9c5c-7b4f70303fba" />
 
