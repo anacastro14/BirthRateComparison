@@ -1,8 +1,8 @@
 # BirthRateComparison
-This project analyses the relationship between health, education, and income deprivation and teenage pregnancy rates by comparing countries in Western Europe, Eastern Europe, and Latin America.
+This project examines the relationship between socioeconomic development and teenage pregnancy rates by comparing countries across Western Europe, Eastern Europe, and Latin America.
 
-The objective is to explore how different socioeconomic contexts are associated with variations in adolescent birth rates across regions.
+Specifically, it explores how indicators related to health, education, and income — as measured by the Human Development Index (HDI) — are associated with variations in adolescent birth rates across different regional contexts.
 
-All analyses were conducted using RStudio.
+All analyses were conducted using R.
 
-Each dataset used in this project is clearly referenced in the code, with original data sources credited in the corresponding comments.
+The datasets used in this study are fully referenced within the code, with original data sources credited in the corresponding comments.
